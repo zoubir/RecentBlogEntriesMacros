@@ -387,7 +387,7 @@
     ## Display Title
     ## -------------
     (% class="entry-title" %)
-      == $entryDoc.display('title', 'view', $entryObj) ==
+    == [[$entryDoc.display('title', 'view', $entryObj)&gt;&gt;$entryDoc]] ==
     ## -------------
     ## Display  Extract
     ## -------------
