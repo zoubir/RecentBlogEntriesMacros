@@ -410,7 +410,7 @@
     ## Display User Details
     ## ------------
     (% class="col-xs-10 col-md-12 comments-avatar" %)(((
-    [[{{html wiki="false"}}#useravatar($context.user){{/html}}&gt;&gt;$entryDoc.creator||class="pull-left"]]
+    [[{{html wiki="false"}}#useravatar($entryDoc.creator){{/html}}&gt;&gt;$entryDoc.creator||class="pull-left"]]
     (% class="media-body" %)(((
     (% class="commens-name" %)(((
     $xwiki.getUserName("$entryDoc.creator",false) 
